@@ -15,9 +15,9 @@ spec:
         app: hello-dep
     spec:
       containers:
-      - image: gcr.io/google-samples/hello-app:1.0
+      - image: us-west1-docker.pkg.dev/seventh-magnet-407805/garkiran1/jenapp1:mynginx
         imagePullPolicy: Always
-        name: hello-dep
+        name: jenapp1
         ports:
         - containerPort: 8080
 		
